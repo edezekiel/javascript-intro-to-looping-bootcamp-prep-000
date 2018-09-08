@@ -29,7 +29,7 @@ function doWhileLoop(array){
     incrementVariable();
     array.pop();
 
-  } while (array.length > 0 || incrementVariable());
+  } while (array.length > 0 && incrementVariable());
 
 }
 
